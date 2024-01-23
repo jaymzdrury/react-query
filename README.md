@@ -40,11 +40,11 @@ renders cached data while actual query fetches in background
 ```
 _disabled_
 
+query is disabled if no userId
+
 ```JavaScript
     useQuery({ 
         ...
         enabled: !!userId,
     })
 ```
-
-query is disabled if no userId
